@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    background: #037ef3;
+}
+
+.change-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 10vh;
+}
+
+.change-color {
+    background: yellow;
+    border-radius: 100%;
+}
+
+.btn-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-change,
+.btn-clear {
+    padding: 10px 20px;
+    width: 49%;
+    color: white;
+    background-color: rgba(1, 1, 1, 0);
+    outline: none;
+    border: 2px solid;
+    border-color: yellow;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
