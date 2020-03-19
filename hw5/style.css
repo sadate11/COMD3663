@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: "Space Mono";
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-family: "Space Mono";
+    margin-top: 5vh;
+}
+
+#userForm {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    font-family: "Space Mono";
+    outline: none;
+    margin-bottom: 10px;
+    padding: 12px 24px;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 12px 37px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-family: "Space Mono";
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.instruction {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.instruction p {
+    font-size: 11px;
+}
+
+#inst-title {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.site-footer {
+    text-align: center;
+    bottom: 10px;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    left: 25%;
+    right: 25%;
+}
+
+.wrapper {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#welcome_img {
+    width: 100%;
+    height: auto;
+}

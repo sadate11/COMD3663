@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS DOM Manipulation Workshop</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h1 class="title">
+                Registration Form
+            </h1>
+            <h4 id="subTitle">Sign up to join the Invisible Society</h4>
+
+            <form action="homepage.html" id="userForm">
+                <input type="text" name="username" placeholder="create username" pattern="^(?=.*\d)(?=.*[a-zA-Z]).{7,15}$" id="username" required>
+                <input type="email" name="email" placeholder="enter email address" pattern="(\b[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\b)" id="email" required>
+                <input type="password" name="password" placeholder="create password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{8,12}$" id="password" required>
+                <button type="submit" form="userForm" id="submitBtn">Submit</button>
+                <button id="resetBtn">Reset</button>
+            </form>
+            <div class="instruction">
+                <p id="inst-title">Instructions</p>
+                <p>Username must contain at least one number and be at least 8 characters long.
+                </p>
+                <p>Password must contain at least one number, one lowercase and one uppercase letter and must be least 8 characters long, but no more than 12 characters long, containing letters, numbers or the underscore.
+
+                </p>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <p>© 2020 El Sadate Idrissou</p>
+        </footer>
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
