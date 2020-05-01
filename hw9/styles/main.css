@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    background-color: #48a9c5;
+    font-family: "Padauk", sans-serif;
+}
+
+.title {
+    font-family: "Staatliches";
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+
+.storage-btns {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.clear {
+    background-color: azure;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear:hover {
+    background-color: bisque;
+}
+
+.empty {
+    background-color: azure;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.empty:hover {
+    background-color: bisque;
+}
+
+.file-save-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#save {
+    font-weight: 700;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#save:hover {
+    color: bisque;
+}
+
+.textarea-container {
+    text-align: center;
+}
+
+#textArea {
+    margin: 0 auto;
+    display: block;
+    font-family: "Padauk", sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+#save-text {
+    color: #000;
+    background-color: azure;
+    font-size: 1em;
+    font-family: "Padauk", sans-serif;
+    font-weight: 700;
+    padding: 10px 36px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+#save-text:hover {
+    background-color: bisque;
+}
+
+footer {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 4px;
+    left: 45%;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1em;
+    font-weight: heavy;
+}

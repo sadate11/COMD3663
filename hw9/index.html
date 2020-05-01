@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link href="https://fonts.googleapis.com/css?family=Padauk:400,700|Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="Site">
+    <div class="Site-content">
+        <div class="note-taker">
+            <h1 class="title">NOTE APP</h1>
+            <div class="storage-btns">
+                <a class="clear">Clear Storage</a>
+                <a class="empty">Empty Storage</a>
+            </div>
+            <div id="storage-quota-msg"></div>
+            <div class="file-save-button">
+                <a id="save">Download Your Notes</a>
+            </div>
+            <div class="textarea-container">
+                <textarea name="text" class="session-storage" id="textArea" cols="60" rows="10">Hello friend, Use this app to save and download your notes. Happy typing!</textarea>
+                <button type="button" id="save-text">SAVE</button>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <script>
+            const theDate = new Date();
+            const footer = document.querySelector(".site-footer");
+            footer.style.fontWeight = "300";
+            footer.style.fontFamily = "Spartan, sans-serif";
+            footer.innerHTML = `El Sadate Idrissou © ${theDate.getFullYear()}`;
+        </script>
+    </footer>
+    <script src="scripts/session.js"></script>
+    <script src="scripts/local.js"></script>
+</body>
+
+</html>
